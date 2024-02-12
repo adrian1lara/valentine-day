@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.valentine-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.valentine-box img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+button {
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buttongroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnGreen {
+    background-color: green;
+    color: white;
+}
+
+
+.btnRed {
+    background-color: red;
+    color: white;
+}
